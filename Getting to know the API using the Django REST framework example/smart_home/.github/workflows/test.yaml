@@ -8,8 +8,8 @@ jobs:
   test-action:
      runs-on: ubuntu-latest
      steps:
-             - name: Run test.py
-               run: python /smart_home/measurement/tests.py
+       - name: Run test.py
+         run: python /smart_home/measurement/tests.py
                       
 
 
