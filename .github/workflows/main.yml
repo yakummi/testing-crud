@@ -10,5 +10,5 @@ jobs:
      runs-on: ubuntu-latest
      steps:
        - name: Run test.py
-         run: python /smart_home/measurement/tests.py
+         run: python /testing-crud/Getting to know the API using the Django REST framework example/smart_home/measurement/tests.py
                       
