@@ -1,0 +1,10 @@
+#!/bin/sh
+'''exec' "/home/yakummi/Desktop/cxvx34/Getting to know the API using the Django REST framework example/smart_home/env/bin/python" "$0" "$@"
+' '''
+# -*- coding: utf-8 -*-
+import re
+import sys
+from numpy.f2py.f2py2e import main
+if __name__ == '__main__':
+    sys.argv[0] = re.sub(r'(-script\.pyw|\.exe)?$', '', sys.argv[0])
+    sys.exit(main())
